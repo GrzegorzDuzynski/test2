@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +24,7 @@ body {
   padding: 12px 24px;
   background-image: linear-gradient(
     45deg,
-    rgb(105, 38, 153) 0%,
+    $colorOne 0%,
     rgb(126, 80, 151) 100%
   );
   border: none;

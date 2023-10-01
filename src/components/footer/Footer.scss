@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .footer {
   width: 100%;
   padding: 20px 0;
@@ -29,7 +31,7 @@
     .icon {
       font-size: 20px;
       margin: 20px 30px;
-      color: rgb(105, 38, 153);
+      color: $colorOne;
 
       @media (max-width: 940px) {
         margin: 0 10px;
