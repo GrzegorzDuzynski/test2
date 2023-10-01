@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  background-color: aliceblue;
+
+  .container-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    @media (max-width: 940px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
+    }
+    .col {
+      margin: auto;
+    }
+
+    .title {
+      margin: 8px 0;
+    }
+
+    .text {
+      margin: 4px;
+    }
+  }
+
+  .social {
+    text-align: center;
+    .icon {
+      font-size: 20px;
+      margin: 20px 30px;
+      color: rgb(105, 38, 153);
+
+      @media (max-width: 940px) {
+        margin: 0 10px;
+      }
+    }
+  }
+}
